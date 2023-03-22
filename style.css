@@ -194,3 +194,46 @@ h2 {
     transform: rotateX(0);
   }
 }
+
+/* media query for screens smaller than 768px */
+@media only screen and (max-width: 768px) {
+    /* styles for the tribute section */
+    .tribute {
+      padding: 30px 10px;
+    }
+    
+    /* styles for the tribute image */
+    .p1 img {
+      width: 100%;
+      height: auto;
+    }
+    
+    /* styles for the section1 container */
+    .container1 {
+      flex-direction: column;
+    }
+    
+    /* styles for the section2 container */
+    .container2 {
+      flex-direction: column;
+    }
+  }
+  
+  /* media query for screens smaller than 480px */
+  @media only screen and (max-width: 480px) {
+    /* styles for the tribute section */
+    .tribute {
+      padding: 10px;
+    }
+    
+    /* styles for the tribute heading */
+    .tribute h1 {
+      font-size: 24px;
+    }
+    
+    /* styles for the section1 and section2 containers */
+    .container1, .container2 {
+      padding: 20px;
+    }
+  }
+  
